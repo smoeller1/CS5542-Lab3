@@ -23,13 +23,14 @@ points(imageDF)
 
 
 ##############
-#EM - Caution: this core dumps
+#EM
 ##############
 install.packages("EMCluster")
 library(EMCluster)
-ret.1 <- starts.via.svd(testImageS, nclass = 10, method = "em")
+imageDF <- testImageS[,-1]
+ret.1 <- starts.via.svd(imageDF, nclass = 10, method = "em")
 summary(ret.1)
-plotem(ret.1, testImageS)
+plotem(ret.1, imageDF)
 
 
 
