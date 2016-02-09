@@ -58,10 +58,10 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
 
         textView = (TextView) findViewById(R.id.text);
         Acc = (TextView) findViewById(R.id.text1);
-        Lig = (TextView) findViewById(R.id.text3);
-        Pro = (TextView) findViewById(R.id.text5);
-        Mag = (TextView) findViewById(R.id.text7);
-        LocationText = (TextView) findViewById(R.id.text9);
+        Lig = (TextView) findViewById(R.id.text2);
+        Pro = (TextView) findViewById(R.id.text3);
+        Mag = (TextView) findViewById(R.id.text4);
+        LocationText = (TextView) findViewById(R.id.text5);
 
         displayImage = (ImageView) findViewById(R.id.imageView);
         cameraClick = (Button) findViewById(R.id.button);
